@@ -1,11 +1,11 @@
 # Use
 
 ```bash 
-bash sequencing.bash > diff.txt 
-# output is one per line, <well> <mutations>
+bash sequencing.bash > out.txt
+# redirect to a file and ignore all the stderr output from EMBOSS
 ```
 
-You'll have to the paths in `sequencing.bash` to fit your setup. 
+`out.txt` will suggest a well to prep for each mutant. You'll have to edit the paths in `sequencing.bash` if you want to run more than the example. 
 
 # Requirements 
 
@@ -15,5 +15,4 @@ Requires [EMBOSS](http://www.ebi.ac.uk/Tools/emboss/) and [BLAST](http://blast.n
 brew tap homebrew/science
 brew install emboss blast 
 ```
-
 
