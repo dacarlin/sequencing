@@ -6,7 +6,7 @@ d48h
 d48h
 d48h+m134k
 d48h+f98w+m134k
-d48h+y50a+f99w+m134k
+d48h+y50a+f98w+m134k
 d48h+y50g
 d48h+y50a+m51h
 d48h+y50a+m51h+m134k
@@ -23,5 +23,5 @@ d48h
 d48h+y50a+m51d+g75w+m134w
 d48h+y50a+m51d+m134w
 d48h+y50a+m51d+f98y+m134w
-d48h+y50a+m51d+g75d+f99y+m134w
+d48h+y50a+m51d+g75d+f98y+m134w
 i64y
