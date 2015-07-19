@@ -2,6 +2,7 @@
 
 ```bash 
 bash sequencing.bash > diff.txt 
+# output is one per line, <well> <mutations>
 ```
 
 to get protein sequence differences between sequencing reads and a provided wild type sequence.
