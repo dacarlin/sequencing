@@ -1,15 +1,25 @@
 WELLS=$( cat wells.txt ) 
-SUBJECT='example/nucleotide.fasta'
-READS='example/reads/'
-ORDER='example/order.txt' 
+SUBJECT='private/1lc3.fasta'
+READS='reads/'
+ORDER='order.txt' 
 
-transeq ${SUBJECT} subject.fasta 
+transeq ${SUBJECT} subject.fasta #translates into protein 
 
 for WELL in $WELLS; do
-  merger -asequence ${READS}*T7pro*${WELL}.seq -bsequence ${READS}*T7ter*${WELL}.seq \
-    -sreverse2 -outseq ${WELL}.fasta -outfile ${WELL}.merger && \
-  blastn -subject ${SUBJECT} -query ${WELL}.fasta -outfmt "6 qseq" > ${WELL}.seq && \
-  transeq ${WELL}.seq ${WELL}.protein.fasta && \
-  printf "%s " ${WELL} && \
-  blastp -subject subject.fasta -query ${WELL}.protein.fasta -outfmt "6 sseq qseq" | python diff.py 
-done | python chooser.py ${ORDER}
+  if [ -e ${READS}*Promoter*${WELL}.seq ]; then 
+    if [ -e ${READS}*Terminator*${WELL}.seq ]; then
+      merger -asequence ${READS}*Promoter*${WELL}.seq -bsequence ${READS}*Terminator*${WELL}.seq \
+        -sreverse2 -outseq ${WELL}.fasta -outfile ${WELL}.merger 
+  
+      blastx -subject subject.fasta -query ${WELL}.fasta -outfmt "6 sseq qseq" | python diff.py 
+    fi
+  fi 
+
+
+  #merger -asequence ${READS}*Promoter*${WELL}.seq -bsequence ${READS}*Terminator*${WELL}.seq \
+  #  -sreverse2 -outseq ${WELL}.fasta -outfile ${WELL}.merger 
+
+
+done #| python chooser.py ${ORDER}
+
+#mv *merger *fasta *seq out/ 
