@@ -1,0 +1,135 @@
+########################################
+# Program: merger
+# Rundate: Wed 19 Aug 2015 14:28:57
+# Commandline: merger
+#    -asequence igem_1nnu_reads/YH_422320-32_H4_v125y-m184a-i226l-2_T7-pro.seq
+#    -bsequence igem_1nnu_reads/YH_422320-80_H4_v125y-m184a-i226l-2_T7-term.seq
+#    -sreverse2
+#    -outseq H4.fasta
+#    -outfile H4.merger
+# Align_format: simple
+# Report_file: H4.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YH_422320-32_H4_v125y-m184a-i226l-2_T7-pro_H04.ab1
+# 2: YH_422320-80_H4_v125y-m184a-i226l-2_T7-term_H10.ab1
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 1193
+# Identity:       1/1193 ( 0.1%)
+# Similarity:     0/1193 ( 0.0%)
+# Gaps:        1192/1193 (99.9%)
+# Score: -1.0
+# 
+#
+#=======================================
+
+YH_422320-32_      1 nnnnn---------------------------------------------      5
+                                                                       
+YH_422320-80_   1189 ----nntnngnncnngnnnnnnnncnnnncnnnnntncntnnnnnnnngn   1144
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_   1143 nnntnnnnnntngattnnnntnccnngnnntannnnganttncnnnnngg   1094
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_   1093 gnatnnnnnnnngatncnnncccnnnnnnaaannanttgtttaactttaa   1044
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_   1043 gaagagatatacatatggaagatattgctttnntgccggtnngngatacc    994
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    993 aatggttatggttggggtatgcaaagactgagcaaacgcaacgtgaaaat    944
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    943 tntctttggtatttggcctccggtgtataacatttttatgaaaaactata    894
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    893 aaaacggcaaatttgataatgatatgattattgataaagacaaaaaaatg    844
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    843 aatattctggatatgctgccgttcgatgcaagctttgataccgcaaacga    794
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    793 tatcgatgaggaaaccaaaaacaacaaacgctacaacatgctgcagaact    744
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    743 ataccattgaagatgtggccaacctgatccaccagaaatatggtaaaatc    694
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    693 aatatgctggttcatagcctggcaaacgccaaatatgttcagaaagatct    644
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    643 gctgaataccagccgtaaaggttatctggatgcactgagtaaaagcagct    594
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    593 atagcctgattagcctgtgcaagtattttgtgaatattatgaaaccgcag    544
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    543 agcagcatcattagtctgacctatcatgcaagccagaaagttgttccggg    494
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    493 ttatggcggtgcgatgagcagcgcaaaagccgcactggaaagcgataccc    444
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    443 gtgttctggcatatcatctgggtcgtaactataacatccgcattaatacc    394
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    393 attagcgcaggtccgctgaaaagccgtgcagcaaccctgattaacaaact    344
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    343 gaataatacctacgaaaataacaccaatcagaacaaaaaccgcaacagcc    294
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    293 atgatgtgcataacattatgaacaacagcggtgaaaaagaagagaaaaaa    244
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    243 aacagcgccagccagaactacacctttatcgattatgccatcgagtatag    194
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    193 cgaaaaatatgcaccgctgcgtcagaaactgctgagcaccgatattggta    144
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_    143 gcgttgccagctttctgctgagtcgtgaaagtcgtgcaattaccggtcag     94
+
+YH_422320-32_      6 --------------------------------------------------      5
+                                                                       
+YH_422320-80_     93 accatttatgtggataatggcctgaatatcatgttcctgccggatgatct     44
+
+YH_422320-32_      6 -------------------------------------------      5
+                                                                
+YH_422320-80_     43 cgagcaccaccaccaccancactgaganccggcnnnnnnnnnn      1
+
+
+#---------------------------------------
+#
+# Conflicts: YH_422320-32_H4 YH_422320-80_H4
+#              position base   position base Using
+# 
+#
+#---------------------------------------

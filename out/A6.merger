@@ -1,0 +1,166 @@
+########################################
+# Program: merger
+# Rundate: Wed 19 Aug 2015 14:28:51
+# Commandline: merger
+#    -asequence igem_1nnu_reads/YH_422320-41_A6_y170f-2_T7-pro.seq
+#    -bsequence igem_1nnu_reads/YH_422320-89_A6_y170f-2_T7-term.seq
+#    -sreverse2
+#    -outseq A6.fasta
+#    -outfile A6.merger
+# Align_format: simple
+# Report_file: A6.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YH_422320-41_A6_y170f-2_T7-pro_A06.ab1
+# 2: YH_422320-89_A6_y170f-2_T7-term_A12.ab1
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 1247
+# Identity:     971/1247 (77.9%)
+# Similarity:   966/1247 (77.5%)
+# Gaps:         212/1247 (17.0%)
+# Score: 4352.0
+# 
+#
+#=======================================
+
+YH_422320-41_      1 nnnnnnnnnnannnnnnnnnnctnnannnnttttgtttaactttaagaag     50
+                                                                       
+YH_422320-89_   1040 --------------------------------------------------   1041
+
+YH_422320-41_     51 gagatatacatatggaagatatttgctttattgccggtattggtgatacc    100
+                            .......|.|||...||||||||||.|||||..||.|||||||
+YH_422320-89_   1040 -------nncatangnagannattgctttattnccggtnatgntgatacc    998
+
+YH_422320-41_    101 aatggttatggttggggtattgcaaaagaactgagcaaacgcaacgtgaa    150
+                     ||.|||||||| |||||||||||||||||||.||||||||||||| ...|
+YH_422320-89_    997 aanggttatgg-tggggtattgcaaaagaacngagcaaacgcaac-nnca    950
+
+YH_422320-41_    151 aattatctttggtatttggcctccggtgtataacatttttatgaaaaact    200
+                     |||||||||||||||||||||||||.|||.|||||||||.||||||||||
+YH_422320-89_    949 aattatctttggtatttggcctccgntgtntaacattttnatgaaaaact    900
+
+YH_422320-41_    201 ataaaaacggcaaatttgataatgatatgatta-ttgataaagacaaaaa    249
+                     .||||||||||||||||||||||||||.||||| |.||||||||||||||
+YH_422320-89_    899 ntaaaaacggcaaatttgataatgatangattantngataaagacaaaaa    850
+
+YH_422320-41_    250 aatgaatattctggatatgctgccgttcgatgcaagctttgatacc-gca    298
+                     |||||||||||||||||||||||||||||||||||||||||||.|| |||
+YH_422320-89_    849 aatgaatattctggatatgctgccgttcgatgcaagctttgatnccngca    800
+
+YH_422320-41_    299 aacgatatcgatgaggaaaccaaaaacaacaaacgctacaacatgctgca    348
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_422320-89_    799 aacgatatcgatgaggaaaccaaaaacaacaaacgctacaacatgctgca    750
+
+YH_422320-41_    349 gaactataccattgaagatgtggccaacctgatccaccagaaatatggta    398
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_422320-89_    749 gaactataccattgaagatgtggccaacctgatccaccagaaatatggta    700
+
+YH_422320-41_    399 aaatcaatatgctggttcatagcctggcaaacgccaaagaagttcagaaa    448
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_422320-89_    699 aaatcaatatgctggttcatagcctggcaaacgccaaagaagttcagaaa    650
+
+YH_422320-41_    449 gatctgctgaataccagccgtaaaggttatctggatgcactgagtaaaag    498
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_422320-89_    649 gatctgctgaataccagccgtaaaggttatctggatgcactgagtaaaag    600
+
+YH_422320-41_    499 cagctatagcctgattagcctgtgcaagtattttgtgaatattatgaaac    548
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_422320-89_    599 cagctatagcctgattagcctgtgcaagtattttgtgaatattatgaaac    550
+
+YH_422320-41_    549 cgcagagcagcatcattagtctgttttatcatgcaagccagaaagttgtt    598
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_422320-89_    549 cgcagagcagcatcattagtctgttttatcatgcaagccagaaagttgtt    500
+
+YH_422320-41_    599 ccgggttatggcggtggtatgagcagcgcaaaagccgcactggaaagcga    648
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_422320-89_    499 ccgggttatggcggtggtatgagcagcgcaaaagccgcactggaaagcga    450
+
+YH_422320-41_    649 tacccgtgttctggcatatcatctgggtcgtaactataacatccgcatta    698
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_422320-89_    449 tacccgtgttctggcatatcatctgggtcgtaactataacatccgcatta    400
+
+YH_422320-41_    699 ataccattagcgcaggtccgctgaaaagccgtgcagcaaccgcaattaac    748
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_422320-89_    399 ataccattagcgcaggtccgctgaaaagccgtgcagcaaccgcaattaac    350
+
+YH_422320-41_    749 aaactgaataatacctacgaaaataacaccaatcagaacaaaaaccgcaa    798
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_422320-89_    349 aaactgaataatacctacgaaaataacaccaatcagaacaaaaaccgcaa    300
+
+YH_422320-41_    799 cagccatgatgtgcataacattatgaacaacagcggtgaaaaaagaagag    848
+                     |||||||||||||||||||||||||||||||||||||||||||..|....
+YH_422320-89_    299 cagccatgatgtgcataacattatgaacaacagcggtgaaaaagaagaga    250
+
+YH_422320-41_    849 aaaaaaacagcgccagccagaactacacctttatcgattatgccatcgan    898
+                     ||||||||||||||||||||||||||||||||||||||||||||||||| 
+YH_422320-89_    249 aaaaaaacagcgccagccagaactacacctttatcgattatgccatcgag    200
+
+YH_422320-41_    899 natagcg-aaaatatgcaccgctgcgtcagaaactgctgagcaccgatat    947
+                      |||||| ||||||||||||||||||||||||||||||||||||||||||
+YH_422320-89_    199 tatagcgaaaaatatgcaccgctgcgtcagaaactgctgagcaccgatat    150
+
+YH_422320-41_    948 tggtagcgttgccagctttctgctgagtcgtgaaagtcgtgcaattaccg    997
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_422320-89_    149 tggtagcgttgccagctttctgctgagtcgtgaaagtcgtgcaattaccg    100
+
+YH_422320-41_    998 gtcagaccatttatgttgnatatggnctgaatatcatgttcctgncggan   1047
+                     ||||||||||||||||.| ..|||| |||||||||||||||||| |||| 
+YH_422320-89_     99 gtcagaccatttatgtggataatggcctgaatatcatgttcctgccggat     50
+
+YH_422320-41_   1048 ganctcgancac--cnnacacnncnnngannatccggnnnnctannagcc   1095
+                     || ||||| |||  |  .|||  |   ..  |.||||    ...  ... 
+YH_422320-89_     49 gatctcgagcaccaccaccaccaccactgaganccggcnnnnnnnnnna-      1
+
+YH_422320-41_   1096 cnaaagaagcnnganttggctgctnnnnnnnnanannactnncatanccn   1145
+                                                                       
+YH_422320-89_      0 --------------------------------------------------      1
+
+YH_422320-41_   1146 tnnggnnncnaacngnnnnnngggntttttngnnnannnagnantatnnn   1195
+                                                                       
+YH_422320-89_      0 --------------------------------------------------      1
+
+YH_422320-41_   1196 cnnnannnnnnnnnngnannnnnccnnnnnnngcnnnnntnnnnnnn   1242
+                                                                    
+YH_422320-89_      0 -----------------------------------------------      1
+
+
+#---------------------------------------
+#
+# Conflicts: YH_422320-41_A6 YH_422320-89_A6
+#              position base   position base Using
+#                    60  'A'          3  'c'   'A'
+#                    61  'T'          4  'a'   'T'
+#                    62  'A'          5  't'   'A'
+#                    63  'T'          6  'a'   'T'
+#                    72  'T'         15  'a'   'T'
+#                    90  'T'         33  'a'   'T'
+#                   112  'T'         55  '.'   'T'
+#                   146  'G'         88  '.'   'G'
+#                   149  'A'         90  'c'   'A'
+#                   234  '.'        175  'n'   '.'
+#                   296  '.'        238  'n'   '.'
+#                   842  'A'        785  'g'   'A'
+#                   843  'G'        786  'a'   'G'
+#                   845  'A'        788  'g'   'A'
+#                   846  'G'        789  'a'   'G'
+#                   847  'A'        790  'g'   'A'
+#                   848  'G'        791  'a'   'G'
+#                   906  '.'        849  'A'   'A'
+#                  1014  't'        958  'G'   'G'
+#                  1017  'a'        961  'T'   'T'
+#                  1018  't'        962  'A'   'A'
+#                  1060  '.'       1004  'C'   'C'
+#                  1060  '.'       1005  'A'   'A'
+#                  1063  'a'       1009  'C'   'C'
+#                  1073  'g'       1019  'T'   'T'
+#                  1074  'a'       1020  'G'   'G'
+#                  1094  'C'       1040  'a'   'C'
+# 
+#
+#---------------------------------------

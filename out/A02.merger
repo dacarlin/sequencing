@@ -1,0 +1,138 @@
+########################################
+# Program: merger
+# Rundate: Wed 12 Aug 2015 10:42:59
+# Commandline: merger
+#    -asequence reads/YH_421354-9_a11h-e88a-i241l-f242w-3_T7-Promoter_A02.seq
+#    -bsequence reads/YH_421537-9_a11h-e88a-i241l-f242w-3_T7-Terminator_A02.seq
+#    -sreverse2
+#    -outseq A02.fasta
+#    -outfile A02.merger
+# Align_format: simple
+# Report_file: A02.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YH_421354-9_a11h-e88a-i241l-f242w-3_T7-Promoter_A02.ab1
+# 2: YH_421537-9_a11h-e88a-i241l-f242w-3_T7-Terminator_A06.ab1
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 1153
+# Identity:     713/1153 (61.8%)
+# Similarity:   712/1153 (61.8%)
+# Gaps:         396/1153 (34.3%)
+# Score: 3321.0
+# 
+#
+#=======================================
+
+YH_421354-9_a      1 --------------------------------------------------      0
+                                                                       
+YH_421537-9_a   1152 nnnnnnannnngatttttncccnnnnnnnnanntnnnnnnnnnnngnnnc   1103
+
+YH_421354-9_a      1 --------------------------------------------------      0
+                                                                       
+YH_421537-9_a   1102 cnnnnnncgccacnntggcgccnnnnanncngnccanganncgtcngnnt   1053
+
+YH_421354-9_a      1 --------------------------------------------------      0
+                                                                       
+YH_421537-9_a   1052 ngaggatngagatcnattntngatncccggnaattaatacgactccacta   1003
+
+YH_421354-9_a      1 -------------nnnnnnnnnannnnncctctag-aataattttgttta     36
+                                           |     |.||||| ||||.|||..||||
+YH_421537-9_a   1002 taggggaatntgagcggatancaattcccntctagaaatantttnnttta    953
+
+YH_421354-9_a     37 actttaagaaggagatatacatatggacgccgaaccgaaacgtaaatttg     86
+                     ||||||||||||||||||.|||||||||||||||||||||||||||||||
+YH_421537-9_a    952 actttaagaaggagatatncatatggacgccgaaccgaaacgtaaatttg    903
+
+YH_421354-9_a     87 gtgtggttgttgttggtgttggtcgtgcaggtagcgttcgtctgcgtgat    136
+                     |||||||||||||.|||||||.||||||||||||||||.|||||||||||
+YH_421537-9_a    902 gtgtggttgttgtnggtgttgntcgtgcaggtagcgttngtctgcgtgat    853
+
+YH_421354-9_a    137 ctgaaagatccgcgtagcgcagcatttctgaatctgattggttttgttag    186
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_421537-9_a    852 ctgaaagatccgcgtagcgcagcatttctgaatctgattggttttgttag    803
+
+YH_421354-9_a    187 ccgtcgtgaactgggtagcctggatgaagttcgtcagattagtctggaag    236
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_421537-9_a    802 ccgtcgtgaactgggtagcctggatgaagttcgtcagattagtctggaag    753
+
+YH_421354-9_a    237 atgcactgcgtagccaagaaattgatgttgcatatatttgtagcgaaagc    286
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_421537-9_a    752 atgcactgcgtagccaagaaattgatgttgcatatatttgtagcgaaagc    703
+
+YH_421354-9_a    287 agcagccatgaagattatattcgtcagtttctgcaggcaggtaaacatgt    336
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_421537-9_a    702 agcagccatgaagattatattcgtcagtttctgcaggcaggtaaacatgt    653
+
+YH_421354-9_a    337 tctggttgaatatccgatgaccctgagctttgcagcagcacaagaactgt    386
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_421537-9_a    652 tctggttgaatatccgatgaccctgagctttgcagcagcacaagaactgt    603
+
+YH_421354-9_a    387 gggaactggcagcacagaaaggtcgtgtgctgcatgaagaacacgttgaa    436
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_421537-9_a    602 gggaactggcagcacagaaaggtcgtgtgctgcatgaagaacacgttgaa    553
+
+YH_421354-9_a    437 ctgctgatggaagaatttgaatttctgcgtcgcgaagttctgggtaaaga    486
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_421537-9_a    552 ctgctgatggaagaatttgaatttctgcgtcgcgaagttctgggtaaaga    503
+
+YH_421354-9_a    487 gctgctgaaaggtagtctgcgttttaccgcaagtccgctggaagaagaac    536
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YH_421537-9_a    502 gctgctgaaaggtagtctgcgttttaccgcaagtccgctggaagaagaac    453
+
+YH_421354-9_a    537 gttttggttttccggcatttagcggtattantcgtctgacctggctggtt    586
+                     |||||||||||||||||||||||||||||| |||||||||||||||||||
+YH_421537-9_a    452 gttttggttttccggcatttagcggtattagtcgtctgacctggctggtt    403
+
+YH_421354-9_a    587 agcctgtttggtgaactgancctga-tnnngcaacccttgaagancncan    635
+                     ||||||||||||||||||| ||||| |   |||||||||||||| | || 
+YH_421537-9_a    402 agcctgtttggtgaactgagcctgattagcgcaacccttgaagaacgcaa    353
+
+YH_421354-9_a    636 agaggatcagtatatgaaaatgaccgttcagctgggaaacccagaataaa    685
+                     ||||||||||||||||||||||||||||||||| ||||||||||||||||
+YH_421537-9_a    352 agaggatcagtatatgaaaatgaccgttcagct-ggaaacccagaataaa    304
+
+YH_421354-9_a    686 ggtctgctgagctggattgnnnnnnanggtcngggtcnnnancgcaatcg    735
+                     |||||||||||||||||||      | |||| |||||   | ||||||||
+YH_421537-9_a    303 ggtctgctgagctggattgaagaaaaaggtccgggtctgaaacgcaatcg    254
+
+YH_421354-9_a    736 ctatgnnaantttcagtttacca---------------------------    758
+                     |||||  || |||||||||||||                           
+YH_421537-9_a    253 ctatgttaattttcagtttaccagcggttcactggaagaggttccgagcg    204
+
+YH_421354-9_a    759 --------------------------------------------------    758
+                                                                       
+YH_421537-9_a    203 ttggtgtgaacaaaaacattttcctgaaagaccaggatatcttcgtgcaa    154
+
+YH_421354-9_a    759 --------------------------------------------------    758
+                                                                       
+YH_421537-9_a    153 aaactgctggatcaggttagcgcagaagatctggcagccgaaaaaaaacg    104
+
+YH_421354-9_a    759 --------------------------------------------------    758
+                                                                       
+YH_421537-9_a    103 tattatgcattgtctgggtctggcaagcgatattcagaagctgtgtcatc     54
+
+YH_421354-9_a    759 --------------------------------------------------    758
+                                                                       
+YH_421537-9_a     53 agaaaaaactcgagcaccaccaccaccaccactgagntccggcnnnnnnn      4
+
+YH_421354-9_a    759 ---    758
+                        
+YH_421537-9_a      3 nna      1
+
+
+#---------------------------------------
+#
+# Conflicts: YH_421354-9_a11 YH_421537-9_a11
+#              position base   position base Using
+#                    23  '.'        186  'a'   '.'
+#                   612  '.'        776  'T'   'T'
+#                   669  'G'        834  '.'   'G'
+# 
+#
+#---------------------------------------
